@@ -1,0 +1,16 @@
+[oob-switches]
+OOB-switch-01 ansible_host=192.168.1.1
+
+[ROUTER-BGP-100]
+Router-100-1 ansible_host=192.168.1.5
+
+[CSR_Routers]
+CSR-01 ansible_host=192.168.1.25
+
+[LINUX]
+LINUX-Server-01 ansible_host=192.168.1.50
+
+[all:vars]
+ansible_user=admin
+ansible_password=cisco123
+ansible_network_os=ios
